@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" type="image/png" href="images/logo.jpg">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<head>
+    <h1>Contact Us</h1>
+    <style>
+    input[type=text],
+    select,
+    textarea {
+        width: 50%;
+        padding: 12px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: red;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: blue;
+    }
+    
+    .container {
+        border-radius: 5px;
+        background-color: blue;
+        padding: 10px;
+    }
+    
+    #submit {
+        background: url(images/submit.jpg);
+        width: 127px;
+        height: 38px;
+        text-indent: -9999px;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+
+<body>
+    <form action="mail_handler.php" method="POST" enctype="multipart/form-data">
+        <input name="action" value="submit" type="hidden"> Your name:
+        <br>
+        <input name="name" size="30" type="text">
+        <br> Your email:
+        <br>
+        <input name="email" size="30" type="text">
+        <br> Your message:
+        <br>
+        <textarea name="message" rows="7" cols="30">
+        </textarea>
+        <br>
+    </form>
+    </div>
+</body>
+
+</html>

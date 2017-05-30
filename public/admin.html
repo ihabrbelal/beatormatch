@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="/images/logo.jpg">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>beat or match , guranteed lowest price</title>
+    <!-- Bootstrap Core CSS -->
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="/css/heroic-features.css" rel="stylesheet">
+    <link href="/css/admin.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Cart <span id="cartqty"> 0 </span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="admin">Admin sign in</a>
+                    </li>
+                    <li>
+                        <a href="user">User sign in</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a id="cameras" href="cameras">Cameras</a>
+                    </li>
+                    <li>
+                        <a id="lenses" href="lenses">Lenses</a>
+                    </li>
+                    <li>
+                        <a id="laptops" href="#">Laptops</a>
+                    </li>
+                    <li>
+                        <a id="storage" href="#">Storage</a>
+                    </li>
+                    <li>
+                        <a id="smartWatch" href="#">Smart Watch</a>
+                    </li>
+                    <li>
+                        <a id="chargers" href="#">Chargers</a>
+                    </li>
+                    <li>
+                        <a id="monitors" href="#">Monitors</a>
+                    </li>
+                    <li>
+                        <a id="projectors" href="#">Projectors</a>
+                    </li>
+                    <li>
+                        <a id=" audio" href="#">Audio</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <img src="images/logo.jpg" width=200px>
+            <div style="float:right">
+                <h1>Beat or Match!</h1>
+                <p>Welcome to the place you would guranteed get the best price on web</p>
+            </div>
+        </header>
+        <hr>
+        <!-- Title -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="addItemForm">
+                        <h4 class="heading"> Add New Item <span></span></h4>
+                        <div class="form_main">
+                            <form method="post" id="addItem" name="addItem">
+                                <input type="text" id='category' required="" placeholder="Category" value="" name="category" class="txt">
+                                <input id='upc' type="text" required="" placeholder="UPC" value="" name="upc" class="txt">
+                                <input id='asin' type="text" required="" placeholder="ASIN" value="" name="asin" class="txt">
+                                <input id='name' type="text" required="" placeholder="Item Name" value="" name="name" class="txt">
+                                <input id='price' type="text" required="" placeholder="Price" value="" name="price" class="txt">
+                                <input id='image' type="text" placeholder="Image link" value="" name="image" class="txt">
+                                <textarea id='desc' placeholder="Item Description" name="desc" type="text" class="txt_3"></textarea>
+                                <input id='submit' type="submit" value="submit" name="submit" class="txt2">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; beatormatch.net 2017</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- /.container -->
+        <!-- jQuery -->
+        <!-- <script src="js/jquery.js"></script> -->
+        <!-- Bootstrap Core JavaScript -->
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+        <!-- products javascript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="/javascript/admin.js"></script>
+</body>
+
+</html>
