@@ -42,13 +42,14 @@ module.exports = function(app) {
 
     });
     app.post("/admin/items", function(req, res) {
-        const { upc, asin, category, product_name, product_desc, image, price } = req.body;
+        const { upc, asin, quantity, category, product_name, product_desc, image, price } = req.body;
 
         console.log(upc, asin, category, product_name, product_desc, image, price);
 
         var newItem = {
             upc: upc,
             asin: asin,
+            quantity: quantity,
             category: category,
             product_name: product_name,
             product_desc: product_desc,
