@@ -45,9 +45,9 @@ if (process.env.JAWSDB_URL) {
 
 // amazon npm
 var client = amazon.createClient({
-    awsId: "AKIAITLLCYPY6ARKPO5A",
-    awsSecret: "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",
-    awsTag: "logylink-20"
+    awsId: "",
+    awsSecret: "",
+    awsTag: ""
 });
 // ======================================================== //
 // exports //
